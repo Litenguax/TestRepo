@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://bdphuikdyyflm"]
+
+[ext_resource type="ArrayMesh" uid="uid://ywds6qptwtx4" path="res://OBJ format/block-grass-large.obj" id="1_gmurf"]
+
+[node name="PlatformExpansion" type="Node3D" unique_id=1099771327]
+
+[node name="BlockGrassLarge" type="MeshInstance3D" parent="." unique_id=271408530]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+mesh = ExtResource("1_gmurf")
+
+[node name="BlockGrassLarge2" type="MeshInstance3D" parent="." unique_id=2017530802]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+mesh = ExtResource("1_gmurf")
+
+[node name="BlockGrassLarge3" type="MeshInstance3D" parent="." unique_id=1847575027]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+mesh = ExtResource("1_gmurf")
+
+[node name="BlockGrassLarge4" type="MeshInstance3D" parent="." unique_id=803358334]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+mesh = ExtResource("1_gmurf")
+
+[node name="BlockGrassLarge5" type="MeshInstance3D" parent="." unique_id=179297927]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+mesh = ExtResource("1_gmurf")
+
+[node name="BlockGrassLarge6" type="MeshInstance3D" parent="." unique_id=1554870048]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+mesh = ExtResource("1_gmurf")
+
+[node name="BlockGrassLarge7" type="MeshInstance3D" parent="." unique_id=532297160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+mesh = ExtResource("1_gmurf")
+
+[node name="BlockGrassLarge8" type="MeshInstance3D" parent="." unique_id=702096537]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+mesh = ExtResource("1_gmurf")

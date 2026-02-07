@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dx7scsxqgspen"]
+
+[ext_resource type="ArrayMesh" uid="uid://dhcesnys67qrv" path="res://OBJ format/block-grass-large-tall.obj" id="1_sydbe"]
+
+[node name="Elevation" type="Node3D" unique_id=1779637455]
+
+[node name="BlockGrassLargeTall" type="MeshInstance3D" parent="." unique_id=200280153]
+mesh = ExtResource("1_sydbe")

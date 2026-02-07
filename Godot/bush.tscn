@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://ds3dn55gm5l05"]
+
+[ext_resource type="ArrayMesh" uid="uid://b403xuhwxe7ra" path="res://OBJ format/hedge.obj" id="1_8cy4n"]
+
+[node name="Bush" type="Node3D" unique_id=1912488650]
+
+[node name="Hedge" type="MeshInstance3D" parent="." unique_id=384028151]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+mesh = ExtResource("1_8cy4n")
+
+[node name="Hedge2" type="MeshInstance3D" parent="." unique_id=1755494537]
+mesh = ExtResource("1_8cy4n")
+
+[node name="Hedge3" type="MeshInstance3D" parent="." unique_id=1228859649]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
+mesh = ExtResource("1_8cy4n")
+
+[node name="Hedge4" type="MeshInstance3D" parent="." unique_id=771581912]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 0)
+mesh = ExtResource("1_8cy4n")
