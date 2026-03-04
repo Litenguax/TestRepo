@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://behdxrkr2ahuf"]
+
+[ext_resource type="ArrayMesh" uid="uid://c3xcvqqfeua42" path="res://OBJ format/block-grass-hexagon.obj" id="1_uf47o"]
+[ext_resource type="ArrayMesh" uid="uid://cg2wuxihjqy13" path="res://OBJ format/chest.obj" id="2_sdryw"]
+
+[node name="RewardPlatform" type="Node3D" unique_id=1207716400]
+
+[node name="BlockGrassHexagon" type="MeshInstance3D" parent="." unique_id=82322821]
+mesh = ExtResource("1_uf47o")
+
+[node name="Chest" type="MeshInstance3D" parent="." unique_id=726517452]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = ExtResource("2_sdryw")

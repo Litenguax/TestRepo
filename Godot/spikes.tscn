@@ -1,0 +1,104 @@
+[gd_scene format=3 uid="uid://d2bbujufk8aob"]
+
+[ext_resource type="ArrayMesh" uid="uid://uplcbghchhi5" path="res://OBJ format/spike-block.obj" id="1_s0g1x"]
+
+[node name="Spikes" type="Node3D" unique_id=80676703]
+
+[node name="SpikeBlock" type="MeshInstance3D" parent="." unique_id=1733456710]
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock2" type="MeshInstance3D" parent="." unique_id=1717016428]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock3" type="MeshInstance3D" parent="." unique_id=432304034]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock4" type="MeshInstance3D" parent="." unique_id=124615554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock5" type="MeshInstance3D" parent="." unique_id=1657952313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock6" type="MeshInstance3D" parent="." unique_id=39709298]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock7" type="MeshInstance3D" parent="." unique_id=834401544]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock8" type="MeshInstance3D" parent="." unique_id=2025637260]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock9" type="MeshInstance3D" parent="." unique_id=655598313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock10" type="MeshInstance3D" parent="." unique_id=1364609816]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock11" type="MeshInstance3D" parent="." unique_id=1150207728]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock12" type="MeshInstance3D" parent="." unique_id=2134472740]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock13" type="MeshInstance3D" parent="." unique_id=316298147]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock14" type="MeshInstance3D" parent="." unique_id=529633158]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock15" type="MeshInstance3D" parent="." unique_id=1784810920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock16" type="MeshInstance3D" parent="." unique_id=1363307318]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock17" type="MeshInstance3D" parent="." unique_id=1312941466]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock18" type="MeshInstance3D" parent="." unique_id=1068642124]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock19" type="MeshInstance3D" parent="." unique_id=1438743123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock20" type="MeshInstance3D" parent="." unique_id=1730951893]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock21" type="MeshInstance3D" parent="." unique_id=601349839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock22" type="MeshInstance3D" parent="." unique_id=50057288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock23" type="MeshInstance3D" parent="." unique_id=993564744]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 2)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock24" type="MeshInstance3D" parent="." unique_id=1188556018]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 1)
+mesh = ExtResource("1_s0g1x")
+
+[node name="SpikeBlock25" type="MeshInstance3D" parent="." unique_id=1604917004]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+mesh = ExtResource("1_s0g1x")

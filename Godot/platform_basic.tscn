@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c4rrijand2512"]
+
+[ext_resource type="ArrayMesh" uid="uid://ywds6qptwtx4" path="res://OBJ format/block-grass-large.obj" id="1_71e5y"]
+[ext_resource type="PackedScene" uid="uid://bdphuikdyyflm" path="res://platform_expansion.tscn" id="2_wamf8"]
+
+[node name="PlatformBasic" type="Node3D" unique_id=190962485]
+
+[node name="BlockGrassLarge" type="MeshInstance3D" parent="." unique_id=75325192]
+mesh = ExtResource("1_71e5y")
+
+[node name="PlatformExpansion" parent="." unique_id=1099771327 instance=ExtResource("2_wamf8")]

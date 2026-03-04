@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://c71it8rdrivs3"]
+
+[ext_resource type="ArrayMesh" uid="uid://bsh4fty1bbqpa" path="res://OBJ format/flowers.obj" id="1_832iv"]
+[ext_resource type="ArrayMesh" uid="uid://df5wffeyroxgm" path="res://OBJ format/flowers-tall.obj" id="2_nfgjg"]
+[ext_resource type="ArrayMesh" uid="uid://dou4j0r5o83hu" path="res://OBJ format/grass.obj" id="3_17fd3"]
+
+[node name="Flowers" type="Node3D" unique_id=910988170]
+
+[node name="Flowers" type="MeshInstance3D" parent="." unique_id=351712322]
+mesh = ExtResource("1_832iv")
+
+[node name="FlowersTall" type="MeshInstance3D" parent="." unique_id=756406523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -1)
+mesh = ExtResource("2_nfgjg")
+
+[node name="FlowersTall2" type="MeshInstance3D" parent="." unique_id=1580271268]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+mesh = ExtResource("2_nfgjg")
+
+[node name="Grass" type="MeshInstance3D" parent="." unique_id=1569568530]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 1)
+mesh = ExtResource("3_17fd3")
+
+[node name="Grass2" type="MeshInstance3D" parent="." unique_id=1310867290]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, -1)
+mesh = ExtResource("3_17fd3")
+
+[node name="Grass3" type="MeshInstance3D" parent="." unique_id=541932737]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+mesh = ExtResource("3_17fd3")

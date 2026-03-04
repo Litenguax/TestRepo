@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cs06hngr2ogbr"]
+
+[ext_resource type="ArrayMesh" uid="uid://b0xb52offyenu" path="res://OBJ format/platform.obj" id="1_ohahv"]
+
+[node name="WoodPlatform" type="Node3D" unique_id=1253021640]
+
+[node name="Platform" type="MeshInstance3D" parent="." unique_id=1433431248]
+mesh = ExtResource("1_ohahv")
+
+[node name="Platform2" type="MeshInstance3D" parent="." unique_id=2069294716]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
+mesh = ExtResource("1_ohahv")
+
+[node name="Platform3" type="MeshInstance3D" parent="." unique_id=1873860318]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+mesh = ExtResource("1_ohahv")
