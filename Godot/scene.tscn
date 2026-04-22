@@ -12,6 +12,8 @@
 [ext_resource type="PackedScene" uid="uid://c71it8rdrivs3" path="res://flowers.tscn" id="10_o3hm7"]
 [ext_resource type="PackedScene" uid="uid://cvfdklahbycwr" path="res://fences.tscn" id="11_xpof7"]
 [ext_resource type="PackedScene" uid="uid://behdxrkr2ahuf" path="res://reward_platform.tscn" id="12_302uq"]
+[ext_resource type="Script" uid="uid://dg1gihl5w0e3y" path="res://caller.gd" id="13_gu47o"]
+[ext_resource type="Script" uid="uid://dtutp23k0sqlw" path="res://receiver.gd" id="14_8hm71"]
 
 [node name="Scene" type="Node3D" unique_id=2040445906]
 
@@ -103,3 +105,10 @@ transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2, 
 
 [node name="RewardPlatform" parent="." unique_id=1207716400 instance=ExtResource("12_302uq")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 11, 2, -2)
+
+[node name="Caller" type="Node3D" parent="." unique_id=1910767958 node_paths=PackedStringArray("receiver")]
+script = ExtResource("13_gu47o")
+receiver = NodePath("../Receiver")
+
+[node name="Receiver" type="Node3D" parent="." unique_id=976874848]
+script = ExtResource("14_8hm71")
