@@ -3,9 +3,17 @@
 [ext_resource type="ArrayMesh" uid="uid://ywds6qptwtx4" path="res://OBJ format/block-grass-large.obj" id="1_71e5y"]
 [ext_resource type="PackedScene" uid="uid://bdphuikdyyflm" path="res://platform_expansion.tscn" id="2_wamf8"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_wamf8"]
+
 [node name="PlatformBasic" type="Node3D" unique_id=190962485]
 
 [node name="BlockGrassLarge" type="MeshInstance3D" parent="." unique_id=75325192]
 mesh = ExtResource("1_71e5y")
 
 [node name="PlatformExpansion" parent="." unique_id=1099771327 instance=ExtResource("2_wamf8")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1215820150]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=502454935]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, 0, -1.9091427, 0)
+shape = SubResource("BoxShape3D_wamf8")

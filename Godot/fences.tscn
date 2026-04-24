@@ -2,6 +2,8 @@
 
 [ext_resource type="ArrayMesh" uid="uid://c1rmno7erombe" path="res://OBJ format/fence-straight.obj" id="1_7mag4"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_7mag4"]
+
 [node name="Fences" type="Node3D" unique_id=719636366]
 
 [node name="FenceStraight" type="MeshInstance3D" parent="." unique_id=1006333593]
@@ -14,3 +16,29 @@ mesh = ExtResource("1_7mag4")
 [node name="FenceStraight3" type="MeshInstance3D" parent="." unique_id=1359943935]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
 mesh = ExtResource("1_7mag4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=588611169]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1167803762]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.41766244, 0.16639185, -0.16021669)
+shape = SubResource("BoxShape3D_7mag4")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" unique_id=186825694]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.41766244, 0.16639185, 0.33754)
+shape = SubResource("BoxShape3D_7mag4")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D" unique_id=1807244493]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.08421761, 0.16639185, 0.33754)
+shape = SubResource("BoxShape3D_7mag4")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="StaticBody3D" unique_id=1742444478]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.57783103, 0.16639185, 0.33754)
+shape = SubResource("BoxShape3D_7mag4")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="StaticBody3D" unique_id=921139361]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -1.0831003, 0.16639185, 0.33754)
+shape = SubResource("BoxShape3D_7mag4")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="StaticBody3D" unique_id=955787977]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -1.25786, 0.16639185, 0.33754)
+shape = SubResource("BoxShape3D_7mag4")

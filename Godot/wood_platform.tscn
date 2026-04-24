@@ -2,15 +2,35 @@
 
 [ext_resource type="ArrayMesh" uid="uid://b0xb52offyenu" path="res://OBJ format/platform.obj" id="1_ohahv"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_ohahv"]
+
 [node name="WoodPlatform" type="Node3D" unique_id=1253021640]
 
 [node name="Platform" type="MeshInstance3D" parent="." unique_id=1433431248]
 mesh = ExtResource("1_ohahv")
 
+[node name="StaticBody3D" type="StaticBody3D" parent="Platform" unique_id=1524375014]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.20384207, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Platform/StaticBody3D" unique_id=1171663726]
+shape = SubResource("BoxShape3D_ohahv")
+
 [node name="Platform2" type="MeshInstance3D" parent="." unique_id=2069294716]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1)
 mesh = ExtResource("1_ohahv")
 
+[node name="StaticBody3D2" type="StaticBody3D" parent="Platform2" unique_id=2128476786]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.20384207, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Platform2/StaticBody3D2" unique_id=274683669]
+shape = SubResource("BoxShape3D_ohahv")
+
 [node name="Platform3" type="MeshInstance3D" parent="." unique_id=1873860318]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
 mesh = ExtResource("1_ohahv")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="Platform3" unique_id=1706313152]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.20384207, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Platform3/StaticBody3D2" unique_id=488382315]
+shape = SubResource("BoxShape3D_ohahv")

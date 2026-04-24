@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bd7c70vs00saq"]
+
+[ext_resource type="ArrayMesh" uid="uid://boskuxjhj3qii" path="res://OBJ format/coin-gold.obj" id="1_d5gmh"]
+[ext_resource type="Script" uid="uid://b48pr01ugxh8f" path="res://area_3d.gd" id="2_0t63x"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_d5gmh"]
+
+[node name="Area3D" type="Area3D" unique_id=1173129142]
+script = ExtResource("2_0t63x")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1452706584]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0.15990746, 0)
+shape = SubResource("SphereShape3D_d5gmh")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1460885531]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" unique_id=1745517740]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0.15990746, 0)
+shape = SubResource("SphereShape3D_d5gmh")
+
+[node name="CoinGold" type="MeshInstance3D" parent="." unique_id=175529185]
+mesh = ExtResource("1_d5gmh")
