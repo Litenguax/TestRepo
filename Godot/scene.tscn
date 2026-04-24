@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://c71it8rdrivs3" path="res://flowers.tscn" id="10_o3hm7"]
 [ext_resource type="PackedScene" uid="uid://cvfdklahbycwr" path="res://fences.tscn" id="11_xpof7"]
 [ext_resource type="PackedScene" uid="uid://behdxrkr2ahuf" path="res://reward_platform.tscn" id="12_302uq"]
+[ext_resource type="Script" uid="uid://cekh2yao8mah0" path="res://attack_input.gd" id="13_akxrc"]
 
 [node name="Scene" type="Node3D" unique_id=2040445906]
 
@@ -103,3 +104,7 @@ transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -2, 
 
 [node name="RewardPlatform" parent="." unique_id=1207716400 instance=ExtResource("12_302uq")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 11, 2, -2)
+
+[node name="AttackInput" type="Node3D" parent="." unique_id=1861987357]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+script = ExtResource("13_akxrc")

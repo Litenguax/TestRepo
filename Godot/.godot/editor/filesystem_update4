@@ -1,0 +1,10 @@
+res://platform_basic.tscn
+res://reward_platform.tscn
+res://bush.tscn
+res://wood_platform.tscn
+res://spikes.tscn
+res://tree.tscn
+res://slope.tscn
+res://elevation.tscn
+res://scene.tscn
+res://attack_input.gd

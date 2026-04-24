@@ -2,7 +2,15 @@
 
 [ext_resource type="ArrayMesh" uid="uid://d38glw5jyrbr8" path="res://OBJ format/tree-pine.obj" id="1_brfkd"]
 
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_brfkd"]
+
 [node name="Tree" type="Node3D" unique_id=1961030124]
 
 [node name="TreePine" type="MeshInstance3D" parent="." unique_id=2107408634]
 mesh = ExtResource("1_brfkd")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=789929215]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=225079731]
+transform = Transform3D(1.1, 0, 0, 0, 1.1, 0, 0, 0, 1.1, 0, 0.909204, 0)
+shape = SubResource("CapsuleShape3D_brfkd")
